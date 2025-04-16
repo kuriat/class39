@@ -1,0 +1,125 @@
+body{
+    background-color: #ffffff;
+}
+
+.travel_mainDiv
+
+{
+
+border: 1px solid lightgrey;
+
+}
+
+.travel_mainDiv img
+
+{
+
+width: 100%;
+
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p
+
+{
+
+margin: 20px;
+
+}
+
+.movie_head
+
+{
+
+font-size: 20px;
+
+padding: 6px 22px;
+
+border-radius: 10px;
+
+margin-bottom: 15px;
+
+}
+
+.movie_head i
+
+{
+
+float: right;
+
+}
+
+.movie_text span
+
+{
+
+color: orange;
+
+}
+
+.book
+
+{
+
+margin-bottom: 20px;
+
+}
+
+#contact iframe
+
+{
+
+width: 100%;
+
+}
+
+#gray_e {
+
+color: gray;
+
+}
+
+.glyphicon-star {
+
+font-size: 40px;
+
+color: #e6b222;
+
+&.half {
+
+position: relative;
+
+&:before {
+
+position: relative;
+
+z-index: 9;
+
+width: 47%;
+
+display: block;
+
+overflow: hidden;
+
+}
+
+&:after {
+
+/*content: '\e006';*/
+
+content: '\e007';
+
+position: absolute;
+
+z-index: 8;
+
+color: #bdc3c7;
+
+top: 0;
+
+left: 0;
+
+}
+
+}
+
+}
